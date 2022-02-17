@@ -15,9 +15,31 @@ header {
     font-size: 1.5rem;
 }
 
-header,form {
+header,
+form {
     min-height: 20vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+form input,
+form button {
+    padding: .5rem;
+    font-size: 2rem;
+    border: none;
+    background: white;
+}
+
+form button {
+    color: #1d857f;
+    background: white;
+    cursor: pointer;
+    transition:all 0.3s ease;
+}
+
+form button:hover {
+    background: #1d857f;
+    color: white;
+}
+
